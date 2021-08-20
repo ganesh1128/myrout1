@@ -20,7 +20,7 @@ function Sidebar() {
       </a>
       <hr className="sidebar-divider my-0" />
       <li className="nav-item active">
-        <a className="nav-link" to="/" >
+        <a className="nav-link" href="/" >
           <i className="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span>
         </a>
@@ -28,13 +28,13 @@ function Sidebar() {
       <hr className="sidebar-divider" />
       <div className="sidebar-heading">Interface</div>
       <li className="nav-item">
-        <a className="nav-link collapsed" to="/users">
+        <a className="nav-link collapsed" href="/users">
           <i className="fas fa-fw fa-cog"></i>
           <span>Users</span>
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link collapsed" to="/Product">
+        <a className="nav-link collapsed" href="/Product">
           <i className="fas fa-fw fa-wrench"></i>
           <span>Products</span>
         </a>

@@ -1,4 +1,3 @@
-import "./App.css";
 import Sidebar from "./Sidebar";
 import Topbar from "./Topbar";
 import Dashboard from "./Dashboard";
